@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+    body {
+        background-color: #ff00ff;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: grey;
+    }
+}
+
+@media print {
+    * {
+        filter: grayscale(1);
+    }
+}
