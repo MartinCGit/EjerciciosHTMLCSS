@@ -56,3 +56,7 @@ button{
   width: 50%;
   border-radius: 2px solid #023303;
 }
+
+.aredescripcion:hover{
+	visibility: hidden;
+}
