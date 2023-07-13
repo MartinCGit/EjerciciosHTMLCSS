@@ -1,0 +1,42 @@
+* {
+    margin: 5px;
+    padding: 3px;
+    box-sizing: content-box;
+    box-shadow: inset;
+    box-decoration-break: slice;
+}
+
+table{
+    border: 2px solid aquamarine;
+}
+
+tr{
+    border: 2px solid azure;
+}
+
+td, th{
+    border: 2px solid grey;
+    padding: 8px;
+}
+
+body {
+    background: rgb(220, 20, 60, 0.6);    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-basis: content;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    margin-bottom: auto;
+}
+
+.CV{
+    margin-bottom: auto;
+}
