@@ -1,0 +1,102 @@
+
+table{
+    display: grid;
+    font-style: italic;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+}
+
+tr{
+    border: 2px solid azure;
+}
+
+td, th{
+    border: 2px solid grey;
+    text-align: center;
+    padding: 30px;
+}
+
+body {
+    background: #04FC9A;    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    flex-basis: content;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado {
+    height: 50px; 
+    padding: 0px;
+    min-width: 60px;
+    margin: 30px;
+    background-color: black;
+    border: 3px solid #555;
+}
+
+.cuadradoredondo {
+    height: 50px; 
+    padding: 0px;
+    min-height: 60px;
+    min-width: 60px;
+    margin: 30px;
+    background-color: black;
+    border: 3px solid #555;
+    border-radius: 50%;
+}
+
+#cuadrado1 {
+    background-color: yellowgreen;
+    border: 3px solid #555;
+}
+
+#cuadrado2 {
+    background-color: gray;
+    border: 3px solid #555;
+}
+
+#cuadrado3 {
+    background-color: yellow;
+    border: 3px solid #555;
+}
+
+#cuadrado4 {
+    background-color: bisque;
+    border: 3px solid #555;
+}
+
+#cuadrado5 {
+    background-color: goldenrod;
+    border: 3px solid #555;
+}
+
+#cuadrado6 {
+    background-color: violet;
+    border: 3px solid #555;
+
+}
+
+#cuadrado7 {
+    background-color: peachpuff;
+    border: 3px solid #555;
+}
+
+#cuadrado8 {
+    background-color: paleturquoise;
+    border: 3px solid #555;
+}
+
+#cuadrado9 {
+    background-color: brown;
+    border: 3px solid #555;
+}
+
+#cuadrado10 {
+    background-color: gold;
+    border: 3px solid #555;
+}
