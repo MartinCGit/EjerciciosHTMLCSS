@@ -1,9 +1,8 @@
 
-table{
+table {
     display: grid;
-    font-style: italic;
-    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 tr{
@@ -58,6 +57,7 @@ body {
 #cuadrado2 {
     background-color: gray;
     border: 3px solid #555;
+    cursor: pointer;
 }
 
 #cuadrado3 {
