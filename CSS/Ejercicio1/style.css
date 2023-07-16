@@ -34,6 +34,46 @@
     border: 3px solid #555;
 }
 
+/* redondeado */
+
+.cuadradoredondeado {
+    height: 50px; 
+    padding: 0px;
+    min-height: 60px;
+    min-width: 60px;
+    margin: 30px;
+    background-color: black;
+    border: 3px solid #555;
+    border-radius: 15%;
+}
+
+.cuadradoredondeado:nth-child(1) {
+    background-color: violet;
+    border: 3px solid #555;
+
+}
+
+.cuadradoredondeado:nth-child(2) {
+    background-color: peachpuff;
+    border: 3px solid #555;
+}
+
+.cuadradoredondeado:nth-child(3) {
+    background-color: paleturquoise;
+    border: 3px solid #555;
+}
+
+.cuadradoredondeado:nth-child(4) {
+    background-color: brown;
+    border: 3px solid #555;
+}
+
+.cuadradoredondeado:nth-child(5) {
+    background-color: gold;
+    border: 3px solid #555;
+}
+
+
 /* redondo */
 
 .cuadradoredondo {

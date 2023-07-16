@@ -49,6 +49,17 @@ body {
     border-radius: 50%;
 }
 
+.cuadradoredondeado {
+    height: 50px; 
+    padding: 0px;
+    min-height: 60px;
+    min-width: 60px;
+    margin: 30px;
+    background-color: black;
+    border: 3px solid #555;
+    border-radius: 15%;
+}
+
 #cuadrado1 {
     background-color: yellowgreen;
     border: 3px solid #555;
@@ -100,3 +111,29 @@ body {
     background-color: gold;
     border: 3px solid #555;
 }
+
+#cuadrado11 {
+    background-color: gainsboro;
+    border: 3px solid #555;
+}
+
+#cuadrado12 {
+    background-color: indianred;
+    border: 3px solid #555;
+}
+
+#cuadrado13 {
+    background-color: lightcoral;
+    border: 3px solid #555;
+}
+
+#cuadrado14 {
+    background-color: hotpink;
+    border: 3px solid #555;
+}
+
+#cuadrado15 {
+    background-color: salmon;
+    border: 3px solid #555;
+}
+
