@@ -121,15 +121,13 @@
                 </select>
               </div>
               <br/>
-            <div class="tipocuenta">
-              <label for="tipocuenta">Tipo de cuenta:</label>
-                <select id="tipocuenta" name="tipocuenta" onchange="mostrarDescripcionuOcultar()">
-                    <option value="Gratuita" data-description="Ha seleccionado la cuenta gratuita." >Gratuita</option>
-                    <option value="Básica" data-description="Ha seleccionado la cuenta básica.">Básica</option>
-                    <option value="Premium" data-description="Ha seleccionado la cuenta premmium.">Premium</option>
-                </select>
-                <span id="descripcion" onchange="mostrarDescripcionuOcultar()"> </span>
-            </div>
+              <label>Tipo de cuenta:</label>
+              <select id="tipocuenta">
+                <option value="gratuita">Gratuita</option>
+                <option value="basica">Básica</option>
+                <option value="premium">Premium</option>
+              </select>
+              
             </br> 
             <div class="areadescripcion">
                 <textarea id="areadescripcion" name="descripcion" maxlength="300"></textarea>
@@ -153,13 +151,5 @@
 
             </form>
 </body>
-
-<script>
-    function mostrarDescripcionuOcultar() {
-      var tipoCuenta = document.getElementById("tipocuenta").value;
-      var descripcion = document.getElementById("descripcion");
-      descripcion.innerHTML = document.querySelector("#tipocuenta option[value='" + tipoCuenta + "']").getAttribute("data-description");
-    }
-</script>
 
 </html>
