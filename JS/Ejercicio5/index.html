@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alarma</title>
+    <script src="script.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <input type="number" id="segundos" placeholder="Introduce segundos">
+    <button onclick="cuentaAtras()">Iniciar</button>
+
+    <button onclick="posponer()" id="posponer"> Posponer </button>
+    <button onclick="detener()" id="detener"> Detener </button>
+  
+    <div class="alert" id="alerta">
+      Alarma sonando!
+    </div>
+
 </body>
 </html>
