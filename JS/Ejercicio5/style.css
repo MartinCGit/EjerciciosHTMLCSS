@@ -6,6 +6,22 @@
 
 }
 
+#posponer{
+    margin: 50px;
+    background-color: aqua;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+#detener{
+    margin: 50px;
+    background-color: aqua;
+    position: relative;
+    border: 1px solid black;
+
+}
+
 .alert {
     display: none;
     position: fixed;
