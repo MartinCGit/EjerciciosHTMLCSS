@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vw; 
+    margin: 0;
+}
+
+#contenido{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-style: oblique;
+    color:  blue;
+    margin: 10px;
+    border: 1px solid black;
+}
