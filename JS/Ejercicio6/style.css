@@ -1,3 +1,44 @@
-.body{
-    background-position: 0%;
+body{
+    text-align: center;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.imagen{
+    position: fixed;
+    align-content: center;
+    padding: 40px;
+}
+
+.borrar{
+    position: fixed;
+    align-content: center;
+}
+
+/* Los estilos que yo meta aqui se van a aplicar siempre y cuando el ancho de la
+pantalla sea inferior a 400px */
+@media screen and (max-width: 800px) {
+    body {
+        background-color: #f1aff175;
+    }
+
+}
+
+/* Los estilos que yo meta aqui se van a aplicar siempre y cuando el ancho de la
+pantalla sea inferior a 400px */
+/* En el momento en el que se cumplan las dos condiciones predomina, la que esté mas abajo */
+/* Siempre tengo que poner el más restrictivo de último */
+@media screen and (max-width: 400px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Voy a aplicar un filtro sobre todo, una escala de grises, al imprimir
+la página me lo pone es un gris siempre que se aplique a una impresora */
+@media print {
+    * {
+        filter: grayscale(1);
+    }
 }

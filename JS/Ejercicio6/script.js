@@ -1,18 +1,13 @@
 function anadirImagen(){
-    let div = document.getElementById("imagen");
-        for (var i = 1; i <= 5; i++) {
-            let img = div;
-            img = new Image(200,300);
-            img.src = "imagenes/minion5" + ".jpeg";
+        var div = document.getElementById("imagen");
+        var numImagenes = div.getElementsByTagName("img").length;
+        
+        if (numImagenes < 5) {
+            var img = document.createElement("img");
+            img.src = 'imagenes/minion2.png';
+            img.style.width = "200px";
+            img.style.height = "150px";
+            numImagenes++;
             div.appendChild(img);
-        }
+        }     
 }
-
-/*function eliminarImagen(){
-    var valor = document.getElementById("valor").value;
-    var imagenes = document.getElementById("imagen");
-    var imagen_a_eliminar = document.body.getElementsByClassName("imagen")[valor - 1];
-    imagenes.remove(imagen_a_eliminar);
-    //var imagen = imagenes.getElementsByTagName("img")[valor - 1];
-    //imagenes.removeChild(imagen);
-}*/
