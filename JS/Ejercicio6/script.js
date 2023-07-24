@@ -1,6 +1,7 @@
-function anadirImagen(){
-        var div = document.getElementById("imagen");
-        var numImagenes = div.getElementsByTagName("img").length;
+/*function anadirImagen(){
+        
+        let div = document.getElementById("imagen");
+        let numImagenes = div.getElementsByTagName("img").length;
         
         if (numImagenes < 5) {
             var img = document.createElement("img");
@@ -10,4 +11,6 @@ function anadirImagen(){
             numImagenes++;
             div.appendChild(img);
         }     
-}
+}*/
+
+

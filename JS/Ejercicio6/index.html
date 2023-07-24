@@ -9,14 +9,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="imagen" class="imagen" style="width: 200px;">
-        <button type="button" onclick="anadirImagen()"> Añadir Imagen </button>
-    </div>
+    
+    <div id="images"></div>
+    <button id="addButton">Añadir</button>
+    <input type="number" id="input" min="1" max="5">
+    <button id="removeButton">Eliminar</button>  
 
-    <div class="borrar">
-    <input type="text" id="valor">
-        <button onclick="eliminarImagen()">EliminarImagen</button>
-    </div>    
-</script>
 </body>
+<script>
+    let images = ['imagenes/minion2.png', 'imagenes/minion2.png', 'imagenes/minion2.png', 'imagenes/minion2.png', 'imagenes/minion2.png'];
+    let div = document.getElementById('images');
+
+let addButton = document.getElementById('addButton');
+addButton.addEventListener('click', function() {
+    if (div.childElementCount < 5) {
+        let img = document.createElement('img');
+        img.src = images[div.childElementCount];
+        img.classList.add('myImage');
+        div.appendChild(img);
+    }
+});
+
+let input = document.getElementById('input');
+
+let removeButton = document.getElementById('removeButton');
+removeButton.addEventListener('click', function() {
+    let index = parseInt(input.value);
+    if (index >= 1 && index <= div.childElementCount) {
+        div.removeChild(div.children[index - 1]);
+    }
+});
+</script>
 </html>

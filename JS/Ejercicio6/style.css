@@ -3,15 +3,15 @@ body{
     border-radius: 5px;
     margin: 15px;
     padding: 5px;
+    
 }
 
-.imagen{
-    position: fixed;
-    align-content: center;
-    padding: 40px;
+.myImage {
+    width: 200px;
+    height: auto;
 }
 
-.borrar{
+.removeButton{
     position: fixed;
     align-content: center;
 }
