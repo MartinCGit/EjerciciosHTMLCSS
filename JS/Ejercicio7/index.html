@@ -105,13 +105,13 @@
       <br/>
 
       <div class="password">
-        <input type="password" name="contrasenha" id="password"  autocomplete="webauthn" required/>
+        <input type="password" name="password" id="password" autocomplete="webauthn" required/>
         <label for="password">Contraseña</label>               
       </div>
       <br/>
 
       <div class="password2">
-        <input type="password" name="contrasenha2" id="password2" autocomplete="webauthn" required/>
+        <input type="password" name="password2" id="password2" autocomplete="webauthn" required/>
         <label for="password">Repetir Contraseña</label>               
       </div>
       <br/>
@@ -152,7 +152,7 @@
         
         </br>
 
-      <button type="submit" onclick="imprimirConsola()">
+      <button type="submit" onclick="imprimirConsola()" onsubmit="registros()">
           Enviar
       </button>
 
